@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset = "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "SeaLifeCabanas.css">
+
+
+<html>
+
+<!--Navigation Bar-->
+<div class ="top-nav"> 
+    <a href = "SeaLifeCabanas.html">Home</a>
+    <a href = "SandDollar.html">Sand Dollar</a>
+    <a>Starfish</a>
+    </div>
+
+    
+<body>
+
+<!-- Top Row-->
+<div class = "img-str">
+  <p>Sample Text</p>
+</div>
+
+<!-- Second Row-->
+<div class = "row">
+<div class = "column-third">
+    Bathroom includes:
+      <ul>
+        <li>Fresh Linens</li>
+      </ul>
+</div>
+<div class = "column-third">
+    Bedroom includes:
+    <ul>
+        <li>Walk-in shower</li>
+    </ul>
+</div>
+</div>
+
+
+
+<!--Gallery-->
+<div class = "container">
+<div class = "carousel-view">
+<button id = "prev-btn" class = "prev-btn">Previous
+</button>
+  <!--List container-->
+  <div id = "item-list" class = "item-list">
+    <!--Photos-->
+    <img id = "item" class = "item" src = "StarfishPhotos/StarfishBDRM1.JPG"/>
+    <img id = "item" class = "item" src = "StarfishPhotos/StarfishBDRM1A.JPG"/>
+    <img id = "item" class = "item" src = "StarfishPhotos/StarfishLVGRM1.JPG"/>
+    <img id = "item" class = "item" src = "StarfishPhotos/StarfishBDRM2.JPG"/>
+  </div>
+<button id = "next-btn" class = "next-button"> Next
+</button>
+<script>
+  const prev = document.getElementById('prev-btn')
+const next = document.getElementById('next-btn')
+const list = document.getElementById('item-list')
+const itemWidth = 150
+const padding = 10
+prev.addEventListener('click',()=>{
+  list.scrollLeft -= (itemWidth + padding)
+})
+next.addEventListener('click',()=>{
+  list.scrollLeft += (itemWidth + padding)
+})
+</script>
+</div>
+
+</div>
+</body>
+
+
+<div class = "footer">
+    <a href = "mailto:sealifecabanas@gmail.com">Email</a>
+    </div>
+    
+</html>

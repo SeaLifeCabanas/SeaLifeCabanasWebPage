@@ -1,0 +1,198 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    border: 0;
+    background-color: azure;
+    font-family: 'Roboto';
+}
+
+p {
+margin-bottom: 20px;
+}
+ 
+/* Navigation Bar */ 
+.top-nav{
+    display: block;
+    position: fixed;
+    opacity: 60%;
+    width: 100%;
+    background: azure;
+    padding: 10px 12px;
+}
+
+.top-nav  a{
+    color: rgb(5, 121, 128);
+    padding:10px 12px;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    background: rgb(5, 121, 128);
+    color: azure;
+}
+
+/* Rows and Columns */
+.column-third{
+    float: left;
+    width: auto;
+    min-width: 20%;
+    max-width: 33%;
+    padding: 80px 20px;
+
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+    background-color: azure;
+}
+
+
+/* Footer */
+
+.footer{
+    display:block;
+    background: azure;
+    padding: 10px 12px;
+}
+
+.footer a{
+    color: rgb(5, 121, 128);
+    padding:10px 12px;
+    text-decoration: none;
+}
+
+
+
+h1 {
+    text-align: center;
+    width: auto;
+}
+
+.content{
+    width: 100%;
+}
+
+.img-text{
+    color:azure;
+    text-align: center;
+    padding: 40px 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px ;
+}
+
+.body-text{
+    float: center;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 10%;
+    color: #333333dd;
+    min-width: 50%;
+    width: 100%;
+    
+}
+
+/* Homepage image */
+
+.img-top {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.img-top{
+background-image: url('Balcony.jpg');
+min-height: 800px;
+}
+
+.img-sd{
+    background-image: url('SandDollar.jpg');
+    min-height: 600px;
+    width: auto;
+    min-width: 600px;
+    max-width: 50%;
+    float:center;
+}
+
+.img-str{
+    background-image: url('StarfishNight.JPG');
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Gallery */
+
+.item {
+    scroll-snap-align: center;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.item-list{
+    max-width: 80%;
+    width: 70vw;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+  }
+  
+  .carousel-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 44px 0;
+    transition: all 0.25s ease-in;
+  }
+  
+  .carousel-view .item-list {
+    max-width: 800px;
+    width: 70vw;
+    padding: 50px 10px;
+    display: flex;
+    gap: 48px;
+    scroll-behavior: smooth;
+    transition: all 0.25s ease-in;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+@media screen and (max-width: 600px){
+    .img-sd .img-str .img-top{
+        max-height: 100px;
+        min-height: 50px;
+        height: 100px;
+        background-size:contain;
+    }
+
+    .img-text{
+        font-size: 36px;
+    }
+}
