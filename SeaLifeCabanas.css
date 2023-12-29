@@ -43,9 +43,11 @@ margin-bottom: 20px;
 .column-third{
     float: left;
     width: auto;
-    min-width: 20%;
-    max-width: 33%;
+    min-width: 25%;
+    max-width: 500%;
     padding: 80px 20px;
+    background-color: azure;
+    color:#333333dd;
 
 }
 
@@ -54,6 +56,7 @@ margin-bottom: 20px;
     display: table;
     clear: both;
     background-color: azure;
+    color:#333333dd;
 }
 
 
@@ -154,7 +157,7 @@ min-height: 800px;
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +187,7 @@ min-height: 800px;
     scroll-snap-type: x mandatory;
   }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .img-sd .img-str .img-top{
         max-height: 100px;
         min-height: 50px;
@@ -194,5 +197,11 @@ min-height: 800px;
 
     .img-text{
         font-size: 36px;
+    }
+    
+    .column-third{
+        min-width: 80%;
+        padding: 20px 20px;
+
     }
 }

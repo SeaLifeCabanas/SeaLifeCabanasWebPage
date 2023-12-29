@@ -55,6 +55,43 @@ $75 cleaning Fee</p>
 </div>
 </body>
 
+<!--Gallery-->
+<div class = "container">
+    <div class = "carousel-view">
+    <button id = "prev-btn" class = "prev-btn">Previous
+    </button>
+      <!--List container-->
+      <div id = "item-list" class = "item-list">
+        <!--Photos-->
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarLVNG1.JPG"/>
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarLVNG2.JPG"/>
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarLVNG3.JPG"/>
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarKitchen2.JPG"/>
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarBDRM1.JPG"/>
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarBATH1.JPG"/>
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarPorch1.JPG"/>
+        <img id = "item" class = "item" src = "SandDollarPhotos/Sand_DollarPorch2.JPG"/>
+      </div>
+    <button id = "next-btn" class = "next-button"> Next
+    </button>
+    <script>
+      const prev = document.getElementById('prev-btn')
+    const next = document.getElementById('next-btn')
+    const list = document.getElementById('item-list')
+    const itemWidth = 150
+    const padding = 10
+    prev.addEventListener('click',()=>{
+      list.scrollLeft -= (itemWidth + padding)
+    })
+    next.addEventListener('click',()=>{
+      list.scrollLeft += (itemWidth + padding)
+    })
+    </script>
+    </div>
+    
+    </div>
+    
+
 
 <div class = "footer">
     <a href = "mailto:sealifecabanas@gmail.com">Email</a>
