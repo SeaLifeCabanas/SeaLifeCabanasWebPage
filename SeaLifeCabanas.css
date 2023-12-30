@@ -8,11 +8,17 @@
     box-sizing: border-box;
 }
 
+h1{
+    color: #333333dd;
+
+}
+
 body, html {
     border: 0;
     background-color: azure;
     font-family: 'Roboto';
 }
+/*  rgb(254, 241, 245) */
 
 p {
 margin-bottom: 20px;
@@ -44,9 +50,10 @@ margin-bottom: 20px;
     float: left;
     width: auto;
     min-width: 25%;
-    max-width: 500%;
-    padding: 80px 20px;
-    background-color: azure;
+    max-width: 50%;
+    padding: 40px 20px;
+    word-wrap: break-word;
+   
     color:#333333dd;
 
 }
@@ -57,6 +64,12 @@ margin-bottom: 20px;
     clear: both;
     background-color: azure;
     color:#333333dd;
+}
+
+.border-box{
+    padding:5px 10px;
+    border-radius: 10px;
+    background-color: azure;
 }
 
 
@@ -93,6 +106,12 @@ h1 {
     font-size: 60px ;
 }
 
+.column-text{
+    line-height: 1.5;
+    color:#333333dd;
+    word-wrap: break-word;
+}
+
 .body-text{
     float: center;
     text-align: center;
@@ -106,7 +125,7 @@ h1 {
 
 /* Homepage image */
 
-.img-top {
+.img-top .img-par-sunrise{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,18 +133,31 @@ h1 {
    
 }
 
+.img-par-sunrise{
+    Background-image:url("StarfishPhotos/StarfishSUNRISE.JPG");
+    min-height: 800px;
+    scale: 50%;
+}
+
 .img-top{
 background-image: url('Balcony.jpg');
 min-height: 800px;
 }
 
+.img-waterfall{
+    background-image: url('Waterfall.JPG');
+    max-height: 400px;
+    max-width: 400px;
+}
+
 .img-sd{
-    background-image: url('SandDollar.jpg');
+    background-image: url('SandDollarPhotos/Sand_DollarLVNG3.JPG');
     min-height: 600px;
-    width: auto;
     min-width: 600px;
-    max-width: 50%;
-    float:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img-str{
@@ -141,8 +173,8 @@ min-height: 800px;
 
 .item {
     scroll-snap-align: center;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .item-list{
@@ -169,7 +201,7 @@ min-height: 800px;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    padding: 44px 0;
+    padding: 44px;
     transition: all 0.25s ease-in;
   }
   
@@ -202,6 +234,6 @@ min-height: 800px;
     .column-third{
         min-width: 80%;
         padding: 20px 20px;
-
+        align-items: center;
     }
 }
