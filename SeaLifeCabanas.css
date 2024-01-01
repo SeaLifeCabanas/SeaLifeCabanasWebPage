@@ -13,6 +13,11 @@ h1{
 
 }
 
+a{
+    color:rgb(5, 121, 128);
+}
+
+
 body, html {
     border: 0;
     background-color: azure;
@@ -135,17 +140,15 @@ h1 {
 
 .img-par-sunrise{
     Background-image:url("StarfishPhotos/StarfishSUNRISE.JPG");
-    min-height: 800px;
-    scale: 50%;
 }
 
 .img-top{
-background-image: url('Balcony.jpg');
+background-image: url('HomepagePhotos/Balcony.jpg');
 min-height: 800px;
 }
 
 .img-waterfall{
-    background-image: url('Waterfall.JPG');
+    background-image: url('HomepagePhotos/Waterfall.JPG');
     max-height: 400px;
     max-width: 400px;
 }
@@ -161,7 +164,7 @@ min-height: 800px;
 }
 
 .img-str{
-    background-image: url('StarfishNight.JPG');
+    background-image: url('StarfishPhotos/StarfishNight.JPG');
     min-height:600px;
     background-attachment: fixed;
     background-position: center;
@@ -184,7 +187,7 @@ min-height: 800px;
     scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: x mandatory;
-}
+} 
 
 
 .container {

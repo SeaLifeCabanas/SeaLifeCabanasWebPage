@@ -4,6 +4,8 @@
 <link rel = "stylesheet" type = "text/css" href = "SeaLifeCabanas.css">
 
 
+<title>Sand Dollar</title>
+
 <html>
 
 <!--Navigation Bar-->
@@ -17,7 +19,7 @@
 <body>
 
     <div class = "img-sd">
-        <p>Sample Text</p>
+       
       </div>
 
 <!-- Top Row-->
@@ -26,10 +28,10 @@
        <p> This unique loft style cabin has 1 bedroom (sleeps up to 2), 1
 bathroom, a kitchenette, small sitting area with bench, a spiral staircase and a comfortable
 covered deck and sand shower.
-NO AC is available in this unit. There is a remote-control fan in the loft sleeping area. </p>
+ AC is available in this unit.  </p>
 <p>Rates are as follows:</p>
-    <p>October 1 - April 15 - $119 per night for up to four people (four night stay minimum).</p>
-    <p>April 16 - September 30 - $99 per night for up to four people (four night stay minimum).</p>
+    <p>October 1 - April 15 - $125 per night for up to two people (four night minimum stay).</p>
+    <p>April 16 - September 30 - $99 per night for up to two people (four night minimum stay).</p>
     <p>9% Belize hotel tax</p>
     <p>$150 refundable security deposit</p>
     <p>$75 cleaning fee</p>
@@ -41,7 +43,7 @@ NO AC is available in this unit. There is a remote-control fan in the loft sleep
 <!-- Second Row-->
 <div class = "row">
 <div class = "column-third">
-    Bathroom includes:
+    Bedroom includes:
       <ul>
         <li>Fresh linens</li>
         <li>Queen bed</li>
@@ -51,7 +53,7 @@ NO AC is available in this unit. There is a remote-control fan in the loft sleep
       </ul>
 </div>
 <div class = "column-third">
-    Bedroom includes:
+    Bathroom includes:
     <ul>
         <li>Walk-in shower</li>
         <li>Shampoo</li>
@@ -61,12 +63,18 @@ NO AC is available in this unit. There is a remote-control fan in the loft sleep
         <li>Wash cloths</li>
     </ul>
 </div>
-</div>
-<div class = "row">
+
+
 <div class = "column-third">
     Kitchen includes:
     <ul>
-        <li> All-in-one cooking station which includes a coffee maker, small oven and small griddle.</li>
+        <li> All-in-one cooking station which includes
+            <ul>
+                <li>coffee maker</li>
+                <li>Small oven</li>
+                <li>small griddle</li>
+            </ul>
+        </li>
         <li>Small Refrigerator and freezer</li>
         <li>Eating and cooking utensils</li>
         <li>Plates, bowls, cups, and mugs</li>
@@ -82,6 +90,8 @@ NO AC is available in this unit. There is a remote-control fan in the loft sleep
         <li>First aid kit</li>
         <li>Fire extinguisher</li>
         <li>Broom/Picker-upper</li>
+        <li>Hand sanitizer</li>
+        <li>Iron and board</li>
     </ul>
 </div>
 </div>
@@ -111,8 +121,8 @@ NO AC is available in this unit. There is a remote-control fan in the loft sleep
       const prev = document.getElementById('prev-btn')
     const next = document.getElementById('next-btn')
     const list = document.getElementById('item-list')
-    const itemWidth = 150
-    const padding = 10
+    const itemWidth =  400
+    const padding = 50
     prev.addEventListener('click',()=>{
       list.scrollLeft -= (itemWidth + padding)
     })
@@ -128,6 +138,7 @@ NO AC is available in this unit. There is a remote-control fan in the loft sleep
 
 <div class = "footer">
     <a href = "mailto:sealifecabanas@gmail.com">Email</a>
+   
     </div>
     
 </html>
