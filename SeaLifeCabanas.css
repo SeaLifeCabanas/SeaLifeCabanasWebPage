@@ -257,10 +257,13 @@ min-height: 800px;
 
 @media screen and (max-width: 700px){
     .img-sd .img-str .img-top{
-        max-height: 100px;
-        min-height: 50px;
-        height: 100px;
+       width: 100%;
+       height: auto;
         background-size:contain;
+    }
+
+    .img-top{
+        min-height: 600px;
     }
 
     .img-text{
