@@ -322,12 +322,7 @@ min-height: 800px;
         grid-template-columns: repeat(1,1fr);
       }
     
-      .column-third{
-        min-width: 80%;
-        float: center;
-        align-items: center;
-        margin:0 auto;
-    }
+      
   .row{
     width: 100%;
     float:center;
