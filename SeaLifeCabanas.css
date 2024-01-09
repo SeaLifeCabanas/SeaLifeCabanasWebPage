@@ -139,7 +139,7 @@ h1 {
 }
 
 .img-par-sunrise{
-    Background-image:url("StarfishPhotos/StarfishSUNRISE.JPG");
+    Background-image:url('StarfishPhotos/StarfishSUNRISE.JPG');
 }
 
 .img-top{
@@ -153,6 +153,8 @@ min-height: 800px;
     max-width: 400px;
 }
 
+
+/*New photo*/
 .img-sd{
     background-image: url('SandDollarPhotos/Sand_DollarPorch2.JPG');
     min-height: 600px;
