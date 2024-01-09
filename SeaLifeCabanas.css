@@ -301,12 +301,7 @@ min-height: 800px;
 }
 
 @media only screen and (max-width: 500px) {
-    .img-sd .img-str .img-top{
-        width: auto;
-        height: auto;
-        min-width: none;
-         background-size:contain;
-     }
+
    
     .responsive {
       width: 100%;
