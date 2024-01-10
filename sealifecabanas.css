@@ -267,6 +267,10 @@ min-height: 800px;
      top: 0 !important;
     }
 
+    .img-str .img-top{
+        min-height: none; 
+    }
+
   
 
     .img-text{
@@ -277,6 +281,7 @@ min-height: 800px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
       }
+    
     
     .column-third{
         min-width: 100%;
