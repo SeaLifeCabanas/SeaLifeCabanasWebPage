@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<meta charset = "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "sealifecabanas.css">
+
+<title>Starfish</title>
+
+<html>
+
+<!--Navigation bar-->
+<div class ="top-nav"> 
+    <a href = "index.html">Home</a>
+    <a href = "sanddollar.html">Sand Dollar</a>
+    <a href = "http://sealifecabanas.com/starfish">Starfish</a>
+    <a href = "gallery.html">Photo Gallery</a>
+    </div>
+
+    
+<body>
+
+<!-- Top row-->
+<div class = "img-str">
+  
+</div>
+
+<div class = "row">
+  <div class = "body-text">
+    <p>This spacious 2 bedroom (sleeps up to 4), 1 bath comes fully equipped with a open concept kitchen and living space. It is equipped with an AC unit in each of the bedrooms. It also includes a screened-in porch with sitting area and non-screened in porch  with outside eating area.</p>
+    <p>Rates are as follows:</p>
+    <p>November 1 - April 15 - $150 per night for up to four people (four night stay minimum).</p>
+    <p>April 16 - October 31 - $125 per night for up to four people (four night stay minimum).</p>
+    <p>$200 security deposit</p>
+    <p>9% Belize hotel tax</p>
+    <p>$150 cleaning fee</p>
+  </div>
+</div>
+
+<!-- Second Row-->
+<div class = "row">
+<div class = "column-third">
+    Each Bedroom includes:
+      <ul>
+        <li>Fresh linens</li>
+        <li>Queen bed</li>
+        <li>Dresser</li>
+        <li>Hangers</li>
+        <li>2 bedside lamps with USB ports</li>
+        
+       
+      </ul>
+</div>
+<div class = "column-third">
+    Bathroom includes:
+    <ul>
+        <li>Walk-in shower</li>
+        <li>Shampoo</li>
+        <li>Body wash</li>
+        <li>Hand soap</li>
+        <li>Bath towels</li>
+        <li>Hand towels</li>
+        <li>Wash cloths</li>
+        <li>Hairdrier</li>
+
+    </ul>
+</div>
+<div class = "column-third">
+    Kitchen includes:
+    <ul>
+        <li>Stove</li>
+        <li>Oven</li>
+        <li> Refrigerator and freezer</li>
+        <li>Coffee pot/coffee station</li>
+        <li>Blender</li>
+        <li>Microwave</li>
+        <li>Eating and cooking utensils</li>
+        <li>Plates, bowls, cups, and mugs</li>
+        <li>Water jug</li>
+    </ul>
+</div>
+<div class = "column-third">
+    Other:
+    <ul>
+        <li>Beach towels</li>
+        <li>Use of kayaks</li>
+        <li>Use of floats</li>
+        <li>First aid kit</li>
+        <li>Fire extinguisher</li>
+        <li>Broom/Picker-upper</li>
+        <li>Hand sanitizer</li>
+        <li>Iron and board</li>
+        <li>Coconut tree</li>
+        <li>Banana tree</li>
+        <li>Berry tree</li>
+    </ul>
+</div>
+</div>
+
+<!--Comment-->
+
+<!--Gallery-->
+<div class = "container">
+<div class = "carousel-view">
+<button id = "prev-btn" class = "prev-btn">Previous
+</button>
+  <!--List container-->
+  <div id = "item-list" class = "item-list">
+    <!--Photos-->
+    <img id = "item" class = "item" src = "starfishphotos/starfishbdrm1.jpg"/>
+    <img id = "item" class = "item" src = "starfishphotos/starfishbdrm1a.jpg"/>
+    <img id = "item" class = "item" src = "starfishphotos/starfishlvgrm1.jpg"/>
+    <img id = "item" class = "item" src = "starfishphotos/starfishbdrm2.jpg"/>
+    <img id = "item" class = "item" src = "starfishphotos/starfishbdrm2a.jpg"/>
+    <img id = "item" class = "item" src = "starfishphotos/starfishsoap.jpg"/>
+    <img id = "item" class = "item" src = "starfishphotos/starfishbthrm1.jpg"/>
+    <img id = "item" class = "item" src = "starfishphotos/starfishbthrm1a.jpg"/>
+  </div>
+<button id = "next-btn" class = "next-button"> Next
+</button>
+<script>
+  const prev = document.getElementById('prev-btn')
+const next = document.getElementById('next-btn')
+const list = document.getElementById('item-list')
+const itemWidth = 400
+const padding = 50
+prev.addEventListener('click',()=>{
+  list.scrollLeft -= (itemWidth + padding)
+})
+next.addEventListener('click',()=>{
+  list.scrollLeft += (itemWidth + padding)
+})
+</script>
+</div>
+
+</div>
+
+<!--End Gallery-->
+</body>
+
+
+<div class = "footer">
+    <a href = "mailto:sealifecabanas@gmail.com">Email</a>
+   
+    </div>
+    
+</html>
