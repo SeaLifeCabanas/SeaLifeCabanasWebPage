@@ -262,8 +262,9 @@ min-height: 800px;
 @media screen and (max-width: 700px){
     .img-sd .img-str .img-top{
      width: 100% !important;
-     height: auto;
-     background-size:cover;
+     height: auto !important;
+     left: 0 !important;
+     top: 0 !important;
     }
 
     .img-top{
