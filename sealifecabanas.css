@@ -168,7 +168,7 @@ min-height: 800px;
 }
 
 .img-str{
-    background-image: url('starfishphotos/starfishnight.jpg');
+    background-image: url('starfishphotos/starfishsunrise.jpg');
     min-height:600px;
     background-attachment: fixed;
     background-position: center;
@@ -268,7 +268,7 @@ min-height: 800px;
     }
 
     .img-str .img-top{
-        min-height: none; 
+        min-height: 200px !important; 
     }
 
   
