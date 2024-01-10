@@ -265,13 +265,10 @@ min-height: 800px;
      height: auto !important;
      left: 0 !important;
      top: 0 !important;
+     min-height: none;
     }
 
-    .img-str .img-top{
-        min-height: 200px !important; 
-    }
 
-  
 
     .img-text{
         font-size: 36px;
