@@ -236,7 +236,7 @@ min-height: 800px;
   }
 
   div.gallery:hover{
-    border:10px rgb(5, 121, 128);
+    border:1px rgb(5, 121, 128);
   }
 
   div.gallery img{
