@@ -165,11 +165,13 @@ min-height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: fill;
 }
 
 .img-str{
     background-image: url('starfishphotos/starfishsunrise.jpg');
     min-height:600px;
+    min-width:600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
