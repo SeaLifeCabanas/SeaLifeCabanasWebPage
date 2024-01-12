@@ -132,21 +132,15 @@ h1 {
 
 /* Homepage image */
 
-.img-top .img-par-sunrise{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
 
-.img-par-sunrise{
-    Background-image:url('starfishphotos/starfishsunrise.jpg');
-}
 
 .img-top{
 background-image: url('homepagephotos/balcony.jpg');
 min-height: 800px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .img-waterfall{
@@ -164,7 +158,6 @@ min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
 }
 
 .img-str{
@@ -265,6 +258,9 @@ min-height: 800px;
      background-size: inherit !important;
     }
 
+    .img-sd{
+        visibility: hidden;
+    }
 
 
     .img-text{
@@ -308,6 +304,7 @@ min-height: 800px;
       width: 100%;
     }
 
+    
     div.gallery img{
         max-height: 100%;
         scale: 100%;
