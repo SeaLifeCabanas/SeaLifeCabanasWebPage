@@ -259,7 +259,16 @@ background-size: cover;
     }
 
     .img-sd{
-        visibility: hidden;
+        height: auto;
+        max-height: 200px !important;
+        min-height: 200px !important;
+        max-width: 100% !important;
+    }
+
+    .img-str{
+        max-height: 200px !important;
+        min-height: 200px !important;
+        max-width: 800px !important;
     }
 
 
