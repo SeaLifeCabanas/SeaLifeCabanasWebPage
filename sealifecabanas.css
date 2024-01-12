@@ -259,10 +259,11 @@ min-height: 800px;
     clear: both;
   }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
     .img-sd .img-str .img-top{
      width: 100% !important;
      height: auto !important;
+     min-height: 200px !important;
      left: 0 !important;
      top: 0 !important;
     }
