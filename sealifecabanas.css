@@ -164,7 +164,7 @@ min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: 100% auto;
 }
 
 .img-str{
@@ -264,7 +264,7 @@ min-height: 800px;
     .img-sd .img-str .img-top{
      width: 100% !important;
      height: auto !important;
-     min-height: 200px !important;
+     max-height: 200px !important;
      left: 0 !important;
      top: 0 !important;
      background-attachment: scroll !important;
