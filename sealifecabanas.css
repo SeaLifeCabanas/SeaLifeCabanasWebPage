@@ -255,7 +255,6 @@ background-size: cover;
 @media screen and (max-width: 800px){
     .img-sd .img-str .img-top{
      background-attachment: fixed !important;
-     background-size: inherit !important;
     }
 
     .img-sd{
