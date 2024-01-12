@@ -262,9 +262,7 @@ min-height: 800px;
 
 @media screen and (max-width: 800px){
     .img-sd .img-str .img-top{
-     left: 0 !important;
-     top: 0 !important;
-     background-attachment: scroll !important;
+     background-attachment: fixed !important;
      background-size: inherit !important;
     }
 
