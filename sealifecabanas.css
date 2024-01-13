@@ -262,18 +262,23 @@ background-size: cover;
     }
 
     .img-sd{
+        display:flex;
         height: auto;
         max-height: 40px !important;
         min-height: 40px !important;
-        max-width: 100% !important;
-        background-size: 25% 25%;
+        width: 40px !important;
+        min-width: 40px !important;
+        max-width: 40px !important;
+        background-size: 10% 10%;
         visibility: hidden !important;
+        background-image: none;
     }
 
     .img-str{
         max-height: 40px !important;
         min-height: 40px !important;
-        max-width: 400px !important;
+        min-width: 40px;
+        max-width: 40px !important;
         background-size: 25% 25%;
         visibility: hidden !important;
     }
