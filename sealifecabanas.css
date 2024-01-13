@@ -169,6 +169,10 @@ background-size: cover;
     background-repeat: no-repeat;
 }
 
+.img-sd2 .img-str2{
+    visibility: hidden;
+}
+
 /* Scrolling Gallery  */
 
 .item {
@@ -259,15 +263,26 @@ background-size: cover;
 
     .img-sd{
         height: auto;
-        max-height: 200px !important;
-        min-height: 200px !important;
+        max-height: 50px !important;
+        min-height: 50px !important;
         max-width: 100% !important;
+        background-size: 25% 25%;
+        visibility: hidden;
     }
 
     .img-str{
-        max-height: 200px !important;
-        min-height: 200px !important;
+        max-height: 50px !important;
+        min-height: 50px !important;
         max-width: 800px !important;
+        background-size: 25% 25%;
+        visibility: hidden;
+    }
+
+    .img-sd2 .img-str2{
+        visibility: visible !important;
+        width: 100px;
+        height:550px;
+  
     }
 
 
@@ -324,4 +339,12 @@ background-size: cover;
       }
     
       
+  }
+
+  @media screen and (min-width: 800px){
+        .img-sd2 .img-str2{
+            visibility: hidden !important;
+           height: 0px;
+           width: 0px;
+        }
   }
