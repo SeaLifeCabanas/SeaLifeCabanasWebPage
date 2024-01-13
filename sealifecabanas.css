@@ -267,15 +267,15 @@ background-size: cover;
         min-height: 50px !important;
         max-width: 100% !important;
         background-size: 25% 25%;
-        visibility: hidden;
+        visibility: hidden !important;
     }
 
     .img-str{
         max-height: 50px !important;
         min-height: 50px !important;
-        max-width: 800px !important;
+        max-width: 400px !important;
         background-size: 25% 25%;
-        visibility: hidden;
+        visibility: hidden !important;
     }
 
     .img-sd2 .img-str2{
