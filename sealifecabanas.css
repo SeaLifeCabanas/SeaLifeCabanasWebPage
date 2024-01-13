@@ -325,6 +325,10 @@ background-size: cover;
         text-align: center;
         width: 100%;
     }
+
+    .mobile-hidden{
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -365,5 +369,6 @@ background-size: cover;
 
         .desktop-hidden{
             visibility: hidden !important;
+            display: none !important;
         }
   }
