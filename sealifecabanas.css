@@ -20,7 +20,7 @@ a{
     color:rgb(5, 121, 128);
 }
 
-b{
+.bold-text{
     font-weight: bold !important;
     color:rgba(0, 0, 0, 0.847) !important;
 }
