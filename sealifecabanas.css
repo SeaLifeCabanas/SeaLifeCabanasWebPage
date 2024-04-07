@@ -6,6 +6,7 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: normal;
 }
 
 /* Heading */
@@ -19,6 +20,10 @@ a{
     color:rgb(5, 121, 128);
 }
 
+b{
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.847);
+}
 
 body, html {
     border: 0;
@@ -62,7 +67,6 @@ margin-bottom: 20px;
     word-wrap: break-word;
    
     color:#333333dd;
-
 }
 
 .row:after{
