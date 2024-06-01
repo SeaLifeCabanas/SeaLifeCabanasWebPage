@@ -335,6 +335,11 @@ background-size: cover;
     }
 }
 
+iframe{
+    display: block;
+    margin: auto;
+}
+
 @media only screen and (max-width: 500px) {
 
     .img-sd2{
