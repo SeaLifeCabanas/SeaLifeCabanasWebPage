@@ -260,7 +260,7 @@ background-size: cover;
     clear: both;
   }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 961px){
     .img-sd .img-str .img-top{
      background-attachment: fixed !important;
     }
@@ -340,7 +340,7 @@ iframe{
     margin: auto;
 }
 
-@media only screen and (max-width: 500px) {
+/*@edia only screen and (max-width: 500px) {
 
     .img-sd2{
         max-width: 60% important;
@@ -368,8 +368,8 @@ iframe{
     
       
   }
-
-  @media screen and (min-width: 800px){
+*/
+@media only screen and (min-width: 961px){
         .img-sd2 .img-str2{
             visibility: hidden !important;
            height: 5px;
