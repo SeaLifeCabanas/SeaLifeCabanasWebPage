@@ -264,11 +264,6 @@ background-size: cover;
     clear: both;
   }
 
-@media screen and (max-width: 961px){
-    .img-sd .img-str .img-top{
-     background-attachment: fixed !important;
-    }
-
     .img-sd{
         display:flex;
         height: auto;
