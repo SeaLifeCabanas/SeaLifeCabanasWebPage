@@ -143,12 +143,11 @@ background-image: url('homepagephotos/balcony.jpg');
 background-size:cover;
 min-width: 100vw;
 min-height: 70vw;
-height:auto;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
 }
+
 
 .img-waterfall{
     background-image: url('homepagephotos/waterfall.jpg');
@@ -332,7 +331,7 @@ background-size: cover;
     .mobile-hidden{
         visibility: hidden;
     }
-}
+
 
 iframe{
     display: block;
@@ -379,4 +378,10 @@ iframe{
             visibility: hidden !important;
             display: none !important;
         }
+  }
+
+  @media only screen and (max-width: 960px){
+    .img-top{
+        background-size:contain;
+    }
   }
