@@ -142,7 +142,7 @@ h1 {
 background-image: url('homepagephotos/balcony.jpg');
 background-size:cover;
 min-width: 100vw;
-min-height: 70vw;
+min-height: 80vh;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -383,5 +383,7 @@ iframe{
   @media only screen and (max-width: 960px){
     .img-top{
         background-size:contain !important;
+        background-position-y: top;
+        min-height: 40vh !important;
     }
   }
