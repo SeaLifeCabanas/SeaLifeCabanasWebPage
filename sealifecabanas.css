@@ -140,6 +140,7 @@ h1 {
 
 .img-top{
 background-image: url('homepagephotos/balcony.jpg');
+background-size:contain;
 min-height: 800px;
 background-attachment: fixed;
 background-position: center;
@@ -156,7 +157,8 @@ background-size: cover;
 
 /*New photo*/
 .img-sd{
-    background-image: url('sanddollarphotos/sand_dollarporch2.jpg');
+    background-image: url('sanddollarphotos/sanddollar_porch.jpg');
+    background-size:contain;
     min-height: 600px;
     min-width: 600px;
     background-attachment: fixed;
