@@ -336,6 +336,7 @@ background-repeat: no-repeat;
 iframe{
     display: block;
     margin: auto;
+    max-width:100vw;
 }
 
 /*@edia only screen and (max-width: 500px) {
@@ -385,5 +386,6 @@ iframe{
         background-size:contain !important;
         background-position-y: top;
         min-height: 40vh !important;
+        width:auto;
     }
   }
