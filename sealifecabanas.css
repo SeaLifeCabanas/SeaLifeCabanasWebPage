@@ -382,7 +382,6 @@ iframe{
 
   @media only screen and (max-width: 960px){
     .img-top{
-        background-size:contain;
-        min-height:40vw !important;
+        background-size:contain !important;
     }
   }
